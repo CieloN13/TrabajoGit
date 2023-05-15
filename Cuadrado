@@ -1,0 +1,11 @@
+import os, math
+
+lado_mayor = float (input ('Ingresa el valor de lado mayor: '))
+lado_menor = float (input ('Ingresa el valor de lado menor: '))
+perimetro=lado_menor*2+lado_mayor*2
+area=lado_menor*lado_mayor
+diagonal=math.sqrt(lado_menor*lado_menor+lado_mayor*lado_mayor)
+print ('Valor de area: ' + repr (area))
+print ('Valor de diagonal: ' + repr (diagonal))
+print ('Valor de perimetro: ' + repr (perimetro))
+print ()
